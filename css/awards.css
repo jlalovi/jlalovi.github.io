@@ -1,0 +1,45 @@
+.achievement_blocks {
+	margin: 0 0 50px;
+	padding: 0;
+	list-style-type: none;
+}
+	.achievement_blocks .horizontal_line {
+		border-top: 1px solid #434247;
+		margin: 15px 2px;
+		height: 0;
+		width: 670px;
+	}
+	.achievement_blocks li:before {
+		content: none;
+	}
+	.achievement_blocks li {
+		width: 670px;
+		line-height: 55px;
+		background: #2d2d35;
+		padding-left: 0; 
+		text-indent: 0;
+	}
+	.achievement_blocks p {
+		margin: 0;
+		padding-left: 25px;
+		display: inline-block;
+	}
+	.achievement_blocks a {
+		font-size: 17px;
+		text-decoration: none;
+	}
+		.achievement_blocks a:hover {
+			text-decoration: underline;
+		}
+	.achievement_blocks .medal {
+		display: inline-block;
+		width: 36px;
+		height: 45px;
+		background: url(../images/medalla.png);
+		float: right;
+		margin: 5px 8px;
+	}
+
+.last.block {
+	margin-bottom: 500px
+}

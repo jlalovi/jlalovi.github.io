@@ -1,0 +1,46 @@
+.skill_blocks {
+	margin: 0 0 50px;
+	padding: 0;
+	list-style-type: none;
+}
+	.skill_blocks .horizontal_line {
+		border-top: 1px solid #434247;
+		margin: 15px 2px;
+		height: 0;
+		width: 670px;
+	}
+	.skill_blocks li:before {
+		content: none;
+	}
+	.skill_blocks li {
+		width: 670px;
+		line-height: 55px;
+		background: #2d2d35;
+		padding-left: 0; 
+		text-indent: 0;
+	}
+	.skill_blocks p {
+		margin: 0;
+		font-size: 18px;
+		padding-left: 25px;
+		display: inline-block;
+	}
+	.skill_blocks .levels {
+		display: inline-block;
+		width: 150px;
+		float: right;
+		padding-top: 2px;
+	}
+		.skill_blocks .circle {
+			display: inline-block;
+			width: 15px;
+			height: 15px;
+			background: #1f1f29;
+			border-radius: 50px;
+			margin-left: 5px;
+		}
+		.skill_blocks .circle.full{
+			background: #48DA9B;
+		}
+	
+

@@ -1,0 +1,49 @@
+/* Full container (Without left column) */
+#featuredProjectsContainer {
+	width: 100%;
+	border-left: none;
+	float: none;
+}
+
+/* Horizontal line full container */
+#featuredProjectsContainer .line_left,
+#featuredProjectsContainer .line_right{
+	width: 440px;
+}
+#featuredProjectsContainer .right_circle {
+	left:473px;
+}
+#featuredProjectsContainer .left_circle{
+	left: 444px;
+}
+#featuredProjectsContainer .central_circle{
+	left: 452px;
+}
+
+/* Specific styles */
+#featuredProjectsContainer .block a {
+	text-decoration: none;
+	font-style: italic;
+}
+	#featuredProjectsContainer .block a:hover {
+		text-decoration: underline;
+	}
+#featuredProjectsContainer .block .project_link {
+	color: #48DA9B;
+	font-style: normal;
+}
+
+#featuredProjectsContainer .block p a {
+	font-weight: bold;
+}
+
+#featuredProjectsContainer .project_links {
+	width: 520px;
+	margin: 0 auto 120px;
+}
+	#featuredProjectsContainer .project_links li{
+		padding-right: 30px;
+	}
+#featuredProjectsContainer .block img {
+	width: 930px;
+}

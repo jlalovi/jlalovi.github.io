@@ -1,0 +1,33 @@
+.last.block {
+	margin-bottom: 300px;
+}
+
+	.horizontal_line + .block h2{
+		margin-bottom: 0;
+	}
+
+	.block h3 {
+		margin: 5px 0 1px;
+		font-size: 19px;
+		font-weight: 400;
+	}
+
+	.block .date_work {
+		width: 150px;
+		line-height: 35px;
+		font-size: 14px;
+		text-align: center;
+		background: #2d2d35;
+	}
+	
+	.block a {
+		text-decoration: none;
+		font-style: italic;
+	}
+		.block a:hover {
+			text-decoration: underline;
+		}
+	.block p a {
+		font-weight: bold;
+	}
+	
