@@ -8,7 +8,7 @@ function runAll() {
 
 function changeContent() {
 
-	/* Reset all containers to invisible */
+	/* Hide all containers */
 	var content_containers = document.getElementsByClassName("content_container");
 	for(var i = 0; i < content_containers.length; i++){
 		content_containers[i].className="content_container invisible";
@@ -29,5 +29,8 @@ function changeContent() {
 		if (j===0) nav_btns[0].className="nav_btn no_border";
 		else nav_btns[j].className="nav_btn";
 	}
+
+	if (this.id=="featuredProjects") this.className="nav_btn purple no_border";
+	else this.className="nav_btn purple";
 
 }
