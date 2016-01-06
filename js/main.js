@@ -6,7 +6,9 @@ function runAll() {
 	}
 }
 
-function changeContent() {
+function changeContent(event) {
+
+	event.preventDefault();
 
 	/* Hide all containers */
 	var content_containers = document.getElementsByClassName("content_container");
@@ -26,11 +28,9 @@ function changeContent() {
 	/* Reset color buttons */
 	var nav_btns = document.getElementsByClassName("nav_btn");
 	for(var j = 0; j < nav_btns.length; j++){
-		if (j===0) nav_btns[0].className="nav_btn no_border";
-		else nav_btns[j].className="nav_btn";
+		nav_btns[j].className="nav_btn";
 	}
 
-	if (this.id=="featuredProjects") this.className="nav_btn purple no_border";
-	else this.className="nav_btn purple";
+	this.className="nav_btn selected";
 
 }
