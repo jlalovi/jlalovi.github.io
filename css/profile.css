@@ -27,3 +27,6 @@
 		float: left;
 		padding-left: 40px;
 	}
+		.philosophy_content ul li {
+			line-height: 180%;
+		}

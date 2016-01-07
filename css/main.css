@@ -220,7 +220,8 @@ blockquote {
 blockquote, p , a, li {
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 18px;
+	line-height: 125%;
 	color: #e4e3e8;
 }
 
@@ -274,6 +275,7 @@ ul {
 	}
 	.content_container {
 		width: 699px;
+		min-height: 1150px;
 		border-left: 1px solid #403F44;
 		float: left;
 	}
@@ -283,6 +285,16 @@ ul {
 		border-top: 1px solid #403F44;
 		display: inline-block;
 	}
+		#footer p {
+			display: inline-block;
+		}
+		#footer a {
+			text-decoration: none;
+			font-style: italic;
+		}
+			#footer a:hover {
+				text-decoration: underline;
+			}
 
 /* HEADER */
 

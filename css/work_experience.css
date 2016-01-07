@@ -2,10 +2,6 @@
 	margin-bottom: 300px;
 }
 
-	.horizontal_line + .block h2{
-		margin-bottom: 0;
-	}
-
 	.block h3 {
 		margin: 5px 0 1px;
 		font-size: 19px;
