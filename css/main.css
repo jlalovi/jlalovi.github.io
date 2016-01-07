@@ -328,6 +328,7 @@ ul {
 	}
 		.download_print_buttons a:hover {
 			background: #020609;
+			cursor: not-allowed;
 		}
 		.download_print_buttons .icon {
 			color: #02070a;
